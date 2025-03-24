@@ -1,82 +1,49 @@
 # Bird Monitoring Project
 
-## 📌 Project Overview
-The **Bird Monitoring Project** analyzes bird species observation data to derive meaningful insights for conservation efforts, biodiversity management, and ecological assessments. This project leverages **Power BI** for visualization, Python for data preprocessing, and various analytical techniques to extract trends from bird sighting patterns, environmental factors, and conservation risks.
+## 📌 Overview
+The Bird Monitoring Project analyzes bird species observation data to extract insights for conservation, biodiversity management, and ecological assessments. It leverages **Power BI** for visualization and **Python** for data preprocessing, providing data-driven insights into species diversity, habitat distribution, and environmental influences.
 
 ## 📊 Key Insights
-- **Endangered Species Analysis**
-  - 378 species identified as endangered.
-  - Conservation risk score calculated for different sites.
-  
-- **Habitat Distribution**
-  - Birds observed across Forest (50.04%) and Grassland (49.96%) regions.
-  
-- **Species Diversity & Popularity**
-  - 127 unique species recorded.
-  - Most frequently observed species: *Northern Cardinal, Carolina Wren, Red-eyed Vireo.*
-  
-- **Environmental Impact on Bird Population**
-  - Observations affected by temperature, humidity, and disturbance levels.
-  - Serious disturbances lead to a decline in sightings.
-  
-- **Observer Influence & Time-based Trends**
-  - Bird sightings vary by time of day, with peak activity around morning hours.
-  - Seasonal trends show variations in sighting patterns across months.
-  
+- **Endangered Species**: 378 species identified; conservation risk scores calculated per site.
+- **Habitat Distribution**: Forest (50.04%) and Grassland (49.96%) observations.
+- **Species Diversity**: 127 unique species; most observed: **Northern Cardinal, Carolina Wren, Red-eyed Vireo**.
+- **Environmental Impact**: Sightings decline with serious disturbances; influenced by temperature & humidity.
+- **Temporal Trends**: Peak sightings in **morning hours**; seasonal variations in patterns.
+
 ## 🛠️ Technologies Used
-- **Power BI** – Interactive visualizations and dashboards.
-- **Python (Pandas, NumPy)** – Data preprocessing and analysis.
-- **Geospatial Mapping** – Identifying hotspots for endangered species.
+- **Power BI** – Interactive dashboards & geospatial mapping.
+- **Python (Pandas, NumPy)** – Data preprocessing & analysis.
+- **Geospatial Analysis** – Identifying endangered species hotspots.
 
 ## 📂 Project Structure
 ```
-├── data/                 # CSV files containing raw & processed datasets
-├── dashboards/           # Power BI dashboards (PDF format)
+├── data/                 # Raw & processed datasets (CSV)
+├── dashboards/           # Power BI dashboards (PDF)
+├── scripts/              # Python scripts for preprocessing & analysis
 ├── README.md             # Project documentation
 ```
 
-## 🚀 How to Use
-- **Data Exploration**
-  - Load the Power BI dashboard (PDF) to visualize insights.
-- **Data Analysis**
-  - Use the CSV files in the `data/` directory for further analysis.
-- **Future Applications**
-  - Extend the analysis with ML models for predictive insights.
+## 🚀 Installation & Setup
+1. **Clone Repository**:
+   ```bash
+   git clone https://github.com/your-repo/bird-monitoring.git
+   cd bird-monitoring
+   ```
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run Data Preprocessing (if applicable)**:
+   ```bash
+   python scripts/preprocess_data.py
+   ```
+4. **Explore Power BI Dashboards**: Open PDF files in the `dashboards/` directory.
 
-## 📌 Key Takeaways & Societal Impact
-1️⃣ **Protect & Restore Endangered Species Habitats**  
-   - Expand **protected areas** and enforce **anti-poaching laws** to preserve endangered species.  
-   - Implement **reforestation and habitat restoration** to support biodiversity.  
-   - Strengthen **wildlife protection laws** based on conservation risk scores.  
-
-2️⃣ **Develop Bird-Friendly Cities & Sustainable Land Use**  
-   - Design **green urban spaces** with wildlife corridors and protected zones.  
-   - Implement **eco-friendly infrastructure** that minimizes habitat destruction.  
-   - Enforce **zoning laws** to protect biodiversity-rich areas from urban expansion.  
-
-3️⃣ **Promote Sustainable Agriculture & Reduce Environmental Impact**  
-   - Adopt **organic and bird-safe farming practices** to reduce habitat loss.  
-   - Reduce **chemical pesticide use** and use **natural pest control methods**.  
-   - Maintain **native vegetation buffers** to support bird populations.  
-
-4️⃣ **Encourage Eco-Tourism for Conservation & Economic Growth**  
-   - Develop **eco-tourism hotspots** based on bird species distribution data.  
-   - Implement **sustainable tourism policies** to minimize environmental disruption.  
-   - Support **community-driven conservation initiatives**.  
-
-5️⃣ **Control Pollution & Mitigate Climate Change Effects**  
-   - Strengthen **environmental laws** to prevent habitat loss due to pollution.  
-   - Reduce **plastic waste and pollution**, which impact bird populations.  
-   - Invest in **climate adaptation programs** to protect vulnerable ecosystems.  
-
-6️⃣ **Use Data for Proactive Decision-Making & Conservation Strategies**  
-   - Utilize **species distribution insights** to guide conservation priorities.  
-   - Predict **migration patterns** to help conservationists take preventive action.  
-   - Encourage **public participation in citizen science projects** to track biodiversity changes.  
+## 🔑 Project Takeaways
+- **Data-Driven Conservation**: Insights help prioritize endangered species protection and habitat restoration.  
+- **Urban Planning & Policy Making**: Supports sustainable city planning with bird-friendly infrastructure.  
+- **Environmental Impact Awareness**: Highlights effects of pollution, deforestation, and climate change on bird populations.  
+- **Scalability & Future Applications**: Can be extended with ML models to predict migration patterns and conservation needs.  
 
 ## 📧 Contact
-For queries or collaborations, reach out to **Shanmugapriya**.
-
----
-This project aims to support biodiversity conservation, provide actionable insights for policy makers, and enhance environmental sustainability efforts.
-
+For collaborations or inquiries, reach out to **Shanmugapriya**.
